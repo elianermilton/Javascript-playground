@@ -1,5 +1,4 @@
-
-
+![banner](eliane_atelier_banner_thin.png)
 # Éliane's Atelier
 ### Marketing Software Developer
 ## **Aesthetic Direction**
