@@ -1,5 +1,4 @@
-
-
+![Éliane’s Atelier — Soft Tan Header Banner](eliane_atelier_banner_thin.png)
 # Éliane's Atelier
 ### Marketing Software Developer
 ## **Aesthetic Direction**
