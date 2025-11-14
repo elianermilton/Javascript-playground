@@ -1,6 +1,4 @@
-![banner](eliane_atelier_banner_thin.png)
-# Éliane's Atelier
-### Marketing Software Developer
+![# Éliane’s Atelier](eliane_atelier_banner_thin.png)
 ## **Aesthetic Direction**
 This repository follows a quiet, architectural style.  
 The design language is built around neutrality, space, and clarity.  
