@@ -38,3 +38,10 @@ The palette below reflects the visual foundation of this space.
     <td align="center">🪨</td>
   </tr>
 </table>
+
+## **Design Philosophy**
+This repository reflects my approach to marketing design.  
+Every code block is written with intention.  
+Each step considers how humans think, perceive, and respond.  
+Structure, clarity, and psychology shape the way every element is constructed.  
+The goal is an experience that feels intuitive, minimal, and quietly intelligent.
