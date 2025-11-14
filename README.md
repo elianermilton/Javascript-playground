@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="eliane_atelier_banner_thin.png" alt="Éliane’s Atelier Banner" width="100%">
-</p>
+![Éliane’s Atelier Banner](./eliane_atelier_banner_thin.png)
 
 # Éliane's-Atelier
 ### Marketing Software Developer
