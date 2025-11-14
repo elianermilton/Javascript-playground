@@ -10,7 +10,6 @@ function typeLine1() {
     if (index <= line1.length) {
         setTimeout(typeLine1, 80);
     } else {
-        // reset index and start typing the second line
         index = 0;
         setTimeout(typeLine2, 300);
     }
