@@ -30,4 +30,11 @@ The palette below reflects the visual foundation of this space.
     <td align="center">Pale Olive</td>
     <td align="center">Charcoal</td>
   </tr>
+  <tr>
+    <td align="center">🦴</td>
+    <td align="center">🏖️</td>
+    <td align="center">🧺</td>
+    <td align="center">🌿</td>
+    <td align="center">🪨</td>
+  </tr>
 </table>
