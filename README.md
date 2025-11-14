@@ -8,25 +8,26 @@ The palette below reflects the visual foundation of this space.
 
 ### **Color Palette**
 
-<div style="display:flex; gap:8px; margin-top:10px;">
-
-  <div style="width:50px; height:50px; background:#F5F2EE; border-radius:4px;" title="Soft Bone"></div>
-
-  <div style="width:50px; height:50px; background:#E6E0D7; border-radius:4px;" title="Warm Sand"></div>
-
-  <div style="width:50px; height:50px; background:#C4BAAF; border-radius:4px;" title="Muted Taupe"></div>
-
-  <div style="width:50px; height:50px; background:#A8AE8C; border-radius:4px;" title="Pale Olive"></div>
-
-  <div style="width:50px; height:50px; background:#2F2F2F; border-radius:4px;" title="Charcoal"></div>
-
-</div>
-
----
-
-### **Palette Details**
-
-| Soft Bone | Warm Sand | Muted Taupe | Pale Olive | Charcoal |
-|----------|-----------|-------------|------------|----------|
-| ![#F5F2EE](https://via.placeholder.com/40/F5F2EE/000000?text=+) | ![#E6E0D7](https://via.placeholder.com/40/E6E0D7/000000?text=+) | ![#C4BAAF](https://via.placeholder.com/40/C4BAAF/000000?text=+) | ![#A8AE8C](https://via.placeholder.com/40/A8AE8C/000000?text=+) | ![#2F2F2F](https://via.placeholder.com/40/2F2F2F/FFFFFF?text=+) |
-| `#F5F2EE` | `#E6E0D7` | `#C4BAAF`   | `#A8AE8C`  | `#2F2F2F` |
+<table>
+  <tr>
+    <td style="width:60px; height:60px; background:#F5F2EE; border-radius:4px;"></td>
+    <td style="width:60px; height:60px; background:#E6E0D7; border-radius:4px;"></td>
+    <td style="width:60px; height:60px; background:#C4BAAF; border-radius:4px;"></td>
+    <td style="width:60px; height:60px; background:#A8AE8C; border-radius:4px;"></td>
+    <td style="width:60px; height:60px; background:#2F2F2F; border-radius:4px;"></td>
+  </tr>
+  <tr>
+    <td align="center">#F5F2EE</td>
+    <td align="center">#E6E0D7</td>
+    <td align="center">#C4BAAF</td>
+    <td align="center">#A8AE8C</td>
+    <td align="center">#2F2F2F</td>
+  </tr>
+  <tr>
+    <td align="center">Soft Bone</td>
+    <td align="center">Warm Sand</td>
+    <td align="center">Muted Taupe</td>
+    <td align="center">Pale Olive</td>
+    <td align="center">Charcoal</td>
+  </tr>
+</table>
