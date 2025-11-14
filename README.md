@@ -1,6 +1,6 @@
-![Éliane’s Atelier Banner](./eliane_atelier_banner_thin.png)
 
-# Éliane's-Atelier
+
+# Éliane's Atelier
 ### Marketing Software Developer
 ## **Aesthetic Direction**
 This repository follows a quiet, architectural style.  
