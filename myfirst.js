@@ -1,4 +1,4 @@
-const text = "Welcome to my JavaScript Playground.";
+const text = "Welcome to my first JavaScript Playground.";
 let index = 0;
 
 function typeIntro() {
