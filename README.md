@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="eliane_atelier_banner_thin.png" alt="Éliane’s Atelier Banner" width="100%">
+</p>
+
+# A Taste of Éliane
+### Marketing Software Developer
 # Éliane's-Atelier
 ## **Aesthetic Direction**
 This repository follows a quiet, architectural style.  
