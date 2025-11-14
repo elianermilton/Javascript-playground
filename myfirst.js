@@ -1,14 +1,29 @@
-const text = "Welcome to my first JavaScript Playground.";
+const line1 = "Welcome to my JavaScript Playground.";
+const line2 = "Stick around… interesting developments are coming.";
 let index = 0;
 
-function typeIntro() {
-    const introElement = document.getElementById("intro");
-    introElement.textContent = text.slice(0, index);
+function typeLine1() {
+    const el1 = document.getElementById("intro");
+    el1.textContent = line1.slice(0, index);
     index++;
 
-    if (index <= text.length) {
-        setTimeout(typeIntro, 80);
+    if (index <= line1.length) {
+        setTimeout(typeLine1, 80);
+    } else {
+        // reset index and start typing the second line
+        index = 0;
+        setTimeout(typeLine2, 300);
     }
 }
 
-typeIntro();
+function typeLine2() {
+    const el2 = document.getElementById("subintro");
+    el2.textContent = line2.slice(0, index);
+    index++;
+
+    if (index <= line2.length) {
+        setTimeout(typeLine2, 80);
+    }
+}
+
+typeLine1();
