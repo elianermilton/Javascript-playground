@@ -45,3 +45,24 @@ Every code block is written with intention.
 Each step considers how humans think, perceive, and respond.  
 Structure, clarity, and psychology shape the way every element is constructed.  
 The goal is an experience that feels intuitive, minimal, and quietly intelligent.
+
+## **Code Principles**
+My work follows a structured set of principles that guide how I write, organize, and refine code.  
+These principles ensure clarity, stability, and psychological ease for anyone interacting with the system.
+
+**Simplicity over spectacle:**  
+Every function, style, and component is stripped to its essential purpose. Unnecessary complexity is noise.
+
+**Human-first structure:**  
+Code is shaped around how people read, interpret, and mentally model systems. The goal is intuitive flow.
+
+**Predictable patterns:**  
+Patterns reduce cognitive load. Consistency in naming, spacing, and logic supports effortless navigation.
+
+**Clean separation:**  
+Structure, style, and logic remain organized. Each layer has its place, making the system feel calm and maintainable.
+
+**Intentional detail:**  
+Spacing, indentation, and order are deliberate. Visual structure communicates just as much as the logic itself.
+
+These principles create a code environment that feels minimal, thoughtful, and quietly confident.
