@@ -1,4 +1,6 @@
-![# Éliane’s Atelier](eliane_atelier_banner_thin.png)
+<p align="center">
+  <img src="eliane_atelier_banner_thin.png" alt="Éliane’s Atelier Banner" style="width:100%; max-width:100%; height:auto;">
+</p>
 
 # **A Taste of Éliane**
 ### Marketing Software Developer
