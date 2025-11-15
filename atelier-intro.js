@@ -1,9 +1,16 @@
-// ===================== INTRO TYPEWRITER =====================
+// =================== INTRO TYPEWRITER ===================
 
+// Intro lines
 const line1 = "Welcome to the atelier of quiet code.";
 const line2 = "Settle in—soft, cozy experiments await.";
+
+// Title lines
+const titleLine = "the atelier of quiet code";
+const whisperLine = "where Éliane defines her personal logic";
+
 let index = 0;
 
+// FIRST: intro line 1
 function typeLine1() {
   const el1 = document.getElementById("intro");
   el1.textContent = line1.slice(0, index);
@@ -17,6 +24,7 @@ function typeLine1() {
   }
 }
 
+// SECOND: intro line 2
 function typeLine2() {
   const el2 = document.getElementById("subintro");
   el2.textContent = line2.slice(0, index);
@@ -24,10 +32,40 @@ function typeLine2() {
 
   if (index <= line2.length) {
     setTimeout(typeLine2, 80);
+  } else {
+    index = 0;
+    setTimeout(typeTitleMain, 500);
   }
 }
 
+// THIRD: type “the atelier of quiet code”
+function typeTitleMain() {
+  const elMain = document.getElementById("title-main");
+  elMain.textContent = titleLine.slice(0, index);
+  index++;
+
+  if (index <= titleLine.length) {
+    setTimeout(typeTitleMain, 80);
+  } else {
+    index = 0;
+    setTimeout(typeTitleWhisper, 300);
+  }
+}
+
+// FOURTH: type “where Éliane defines her personal logic”
+function typeTitleWhisper() {
+  const elWhisper = document.getElementById("title-whisper");
+  elWhisper.textContent = whisperLine.slice(0, index);
+  index++;
+
+  if (index <= whisperLine.length) {
+    setTimeout(typeTitleWhisper, 80);
+  }
+}
+
+// Start it all off
 typeLine1();
+
 
 // ===================== MODE SETUP =====================
 
