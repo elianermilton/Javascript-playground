@@ -46,71 +46,63 @@
 
 #mode-buttons {
   display: flex;
-  gap: 1.25rem;
+  gap: 2rem;                     /* more space between buttons */
   justify-content: center;
-  flex-wrap: wrap;
+  align-items: flex-start;
+  flex-wrap: nowrap;             /* FORCE them side-by-side */
+  margin-top: 1.5rem;
 }
 
 .mode-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.3rem;
+  gap: 0.65rem;
 }
 
+#mode-buttons button {
+  padding: 1rem 2.5rem;           /* MUCH larger buttons */
+  border-radius: 50px;            /* big pill shape */
+  border: 2px solid #e2b7cf;      /* soft rose border */
+  background: #ffe9f4;
+  color: #3a2a35;
+  font-size: 1.2rem;              /* larger text */
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  transition:
+    background-color 0.25s ease,
+    transform 0.15s ease,
+    box-shadow 0.25s ease;
+}
+
+/* hover effect */
+#mode-buttons button:hover {
+  transform: translateY(-2px);
+  background: #ffd5ee;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.10);
+}
+
+/* click effect */
+#mode-buttons button:active {
+  transform: translateY(0);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+/* captions (under buttons) */
 .mode-caption {
-  font-size: 0.75rem;
-  opacity: 0.8;
-  max-width: 180px;
+  font-size: 0.85rem;
+  opacity: 0.85;
+  width: 180px;
+  text-align: center;
   line-height: 1.4;
 }
 
-/* base button style */
-
-#mode-buttons button {
-  padding: 0.6rem 1.4rem;
-  border-radius: 999px;
-  border: 1px solid #e2b7cf;      /* muted rose border */
-  background: #ffe9f4;            /* blush base */
-  color: #3a2a35;
-  font-size: 0.9rem;
-  letter-spacing: 0.06em;
-  text-transform: lowercase;
-  cursor: pointer;
-  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
-  transition:
-    background-color 0.25s ease,
-    color 0.25s ease,
-    box-shadow 0.25s ease,
-    transform 0.15s ease;
-}
 
 
-#soft-mode {
-  font-weight: 500;
-}
 
-#focus-mode {
-  font-weight: 600;
-}
 
-/* hover and active states */
 
-#mode-buttons button:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
-  background: #ffd5ee;
-}
-
-#mode-buttons button:active {
-  transform: translateY(0);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
-}
-
-/* keyboard focus outline */
-
-#mode-buttons button:focus-visible {
-  outline: 2px solid #f3a6cf;
-  outline-offset: 3px;
-}
 
