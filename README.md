@@ -3,14 +3,14 @@
 </p>
 
 ## **A Taste of Éliane**
-#### Marketing Software Developer
+### Marketing Software Developer
 
 Welcome to my curated JavaScript environment.  
 This space is designed as an atelier — a working studio where ideas are shaped through structure, clarity, and deliberate experimentation.
 
 ---
 
-## **Design Philosophy**
+#### **Design Philosophy**
 This repository reflects my approach to marketing design.  
 Every code block is written with intention.  
 Each step considers how humans think, perceive, and interpret structure.
@@ -19,7 +19,7 @@ My goal is to create a coding environment that feels intuitive, minimal, and psy
 
 ---
 
-## **Code Principles**
+#### **Code Principles**
 My work follows a structured set of principles that guide how I write, organize, and refine code.
 
 **Simplicity:**  
@@ -45,7 +45,7 @@ These principles create a code environment that feels calm, readable, and mainta
 This repository follows a quiet, architectural style.  
 The design language is minimal, structured, and rooted in soft neutral tones.
 
-### Color Palette
+#### Color Palette
 
 <table>
   <tr>
@@ -80,7 +80,7 @@ The design language is minimal, structured, and rooted in soft neutral tones.
 
 ---
 
-## **Current Focus**
+#### **Current Focus**
 This atelier is an evolving space. Current explorations include:
 
 - JavaScript fundamentals expressed through clean structure  
