@@ -2,8 +2,8 @@
   <img src="eliane_atelier_banner_thin.png" alt="Éliane’s Atelier Banner" width="900">
 </p>
 
-# **A Taste of Éliane**
-### Marketing Software Developer
+## **A Taste of Éliane**
+#### Marketing Software Developer
 
 Welcome to my curated JavaScript environment.  
 This space is designed as an atelier — a working studio where ideas are shaped through structure, clarity, and deliberate experimentation.
