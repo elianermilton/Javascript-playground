@@ -1,4 +1,44 @@
-/* =================== title and subtitle =================== */
+/* =================== the atelier’s foundation =================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #ffdcd1;            /* pale salmon, candlelight glow */
+  color: #3a2a35;                  /* soft plum for contrast */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  transition:
+    background-color 0.5s ease,
+    color 0.5s ease,
+    font-size 0.3s ease;
+}
+
+/* =================== intro text =================== */
+
+#intro {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  margin-bottom: 0.25rem;
+}
+
+#subintro {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 1.75rem;
+  font-style: italic;
+}
+
+/* =================== atelier title =================== */
 
 #title {
   margin-bottom: 0.75rem;
@@ -27,29 +67,14 @@
   margin-bottom: 1.75rem;
 }
 
-/* =================== intro text =================== */
-
-#intro {
-  font-size: 0.95rem;
-  opacity: 0.9;
-  margin-bottom: 0.25rem;
-}
-
-#subintro {
-  font-size: 0.9rem;
-  opacity: 0.8;
-  margin-bottom: 2rem;
-  font-style: italic;
-}
-
 /* =================== mode buttons and captions =================== */
 
 #mode-buttons {
   display: flex;
-  gap: 2rem;                     /* more space between buttons */
+  gap: 2rem;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap: nowrap;             /* FORCE them side-by-side */
+  flex-wrap: nowrap;
   margin-top: 1.5rem;
 }
 
@@ -61,12 +86,12 @@
 }
 
 #mode-buttons button {
-  padding: 1rem 2.5rem;           /* MUCH larger buttons */
-  border-radius: 50px;            /* big pill shape */
-  border: 2px solid #e2b7cf;      /* soft rose border */
-  background: #ffe9f4;
+  padding: 1rem 2.5rem;            /* big cozy buttons */
+  border-radius: 50px;             /* pill shape */
+  border: 2px solid #e2b7cf;       /* soft rose border */
+  background: #ffe9f4;             /* blush base */
   color: #3a2a35;
-  font-size: 1.2rem;              /* larger text */
+  font-size: 1.2rem;
   font-weight: 600;
   letter-spacing: 0.04em;
   text-transform: lowercase;
@@ -78,35 +103,44 @@
     box-shadow 0.25s ease;
 }
 
-/* hover effect */
+/* optional tiny distinction between modes */
+#soft-mode {
+  font-weight: 600;
+}
+
+#focus-mode {
+  font-weight: 700;
+}
+
+/* hover and active states */
+
 #mode-buttons button:hover {
   transform: translateY(-2px);
   background: #ffd5ee;
   box-shadow: 0 12px 28px rgba(0, 0, 0, 0.10);
 }
 
-/* click effect */
 #mode-buttons button:active {
   transform: translateY(0);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
 
-/* captions (under buttons) */
+/* subtitles under buttons */
+
 .mode-caption {
   font-size: 0.85rem;
   opacity: 0.85;
-  width: 180px;
+  width: 190px;
   text-align: center;
   line-height: 1.4;
 }
-button {
-  font-size: 30px;
-}
-body {
-  background: red !important;
-}
 
+/* =================== accessibility =================== */
 
+#mode-buttons button:focus-visible {
+  outline: 2px solid #f3a6cf;
+  outline-offset: 3px;
+}
 
 
 
