@@ -24,5 +24,32 @@ function typeLine2() {
         setTimeout(typeLine2, 80);
     }
 }
-
 typeLine1();
+const title = document.getElementById("title");
+const subtitle = document.getElementById("subtitle");
+const body = document.body;
+
+const villainButton = document.getElementById("villain-mode");
+const softButton = document.getElementById("soft-mode");
+const focusButton = document.getElementById("focus-mode");
+
+villainButton.addEventListener("click", function () {
+  body.style.backgroundColor = "#0b0b12";
+  body.style.color = "#f2f2f2";
+  title.textContent = "Villain Mode: Activated";
+  subtitle.textContent = "Precision. Power. No mercy in these code blocks.";
+});
+
+softButton.addEventListener("click", function () {
+  body.style.backgroundColor = "#fbeffb";
+  body.style.color = "#333333";
+  title.textContent = "Soft Mode: Enabled";
+  subtitle.textContent = "Gentle brain, clean code, plenty of grace for typos.";
+});
+
+focusButton.addEventListener("click", function () {
+  body.style.backgroundColor = "#0f172a";
+  body.style.color = "#e5e7eb";
+  title.textContent = "Focus Mode: Locked In";
+  subtitle.textContent = "One task. One file. One unstoppable compiler of reality.";
+});
