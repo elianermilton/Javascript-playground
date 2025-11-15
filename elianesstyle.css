@@ -1,0 +1,21 @@
+/* =================== the atelier’s foundation =================== */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  background: #fff2f8;              /* soft pink wash */
+  color: #3a2a35;                    /* soft plum text */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  transition: background-color 0.5s ease, color 0.5s ease, font-size 0.3s ease;
+}
