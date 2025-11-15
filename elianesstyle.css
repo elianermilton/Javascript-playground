@@ -1,21 +1,116 @@
-/* =================== the atelier’s foundation =================== */
+/* =================== title and subtitle =================== */
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+#title {
+  margin-bottom: 0.75rem;
+  line-height: 1.3;
 }
 
-body {
-  min-height: 100vh;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #ffdcd1; /* pale salmon, candlelight glow */
-  color: #3a2a35;      /* soft plum for contrast */
+.title-main {
+  font-size: 1.9rem;
+  letter-spacing: 0.04em;
+  text-transform: lowercase;
+  font-weight: 600;
+}
+
+.title-whisper {
+  display: block;
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  opacity: 0.7;
+  margin-bottom: 0.25rem;
+}
+
+#subtitle {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  margin-bottom: 1.75rem;
+}
+
+/* =================== intro text =================== */
+
+#intro {
+  font-size: 0.95rem;
+  opacity: 0.9;
+  margin-bottom: 0.25rem;
+}
+
+#subintro {
+  font-size: 0.9rem;
+  opacity: 0.8;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+/* =================== mode buttons and captions =================== */
+
+#mode-buttons {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mode-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  padding: 2.5rem 1.5rem;
-  text-align: center;
-  transition: background-color 0.5s ease, color 0.5s ease, font-size 0.3s ease;
+  gap: 0.3rem;
 }
+
+.mode-caption {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  max-width: 180px;
+  line-height: 1.4;
+}
+
+/* base button style */
+
+#mode-buttons button {
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  border: 1px solid #e2b7cf;      /* muted rose border */
+  background: #ffe9f4;            /* blush base */
+  color: #3a2a35;
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+  cursor: pointer;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.06);
+  transition:
+    background-color 0.25s ease,
+    color 0.25s ease,
+    box-shadow 0.25s ease,
+    transform 0.15s ease;
+}
+
+
+#soft-mode {
+  font-weight: 500;
+}
+
+#focus-mode {
+  font-weight: 600;
+}
+
+/* hover and active states */
+
+#mode-buttons button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+  background: #ffd5ee;
+}
+
+#mode-buttons button:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+}
+
+/* keyboard focus outline */
+
+#mode-buttons button:focus-visible {
+  outline: 2px solid #f3a6cf;
+  outline-offset: 3px;
+}
+
