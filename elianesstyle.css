@@ -9,8 +9,8 @@
 body {
   min-height: 100vh;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: #fff2f8;              /* soft pink wash */
-  color: #3a2a35;                    /* soft plum text */
+  background: #ffdcd1; /* pale salmon, candlelight glow */
+  color: #3a2a35;      /* soft plum for contrast */
   display: flex;
   flex-direction: column;
   align-items: center;
