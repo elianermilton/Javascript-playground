@@ -1,15 +1,49 @@
 ![# Éliane’s Atelier](eliane_atelier_banner_thin.png)
 
-# A Taste of Éliane  
+# **A Taste of Éliane**
 ### Marketing Software Developer
+
+Welcome to my curated JavaScript environment.  
+This space is designed as an atelier — a working studio where ideas are shaped through structure, clarity, and deliberate experimentation.
+
+---
+
+## **Design Philosophy**
+This repository reflects my approach to marketing design.  
+Every code block is written with intention.  
+Each step considers how humans think, perceive, and interpret structure.
+
+My goal is to create a coding environment that feels intuitive, minimal, and psychologically grounded.
+
+---
+
+## **Code Principles**
+My work follows a structured set of principles that guide how I write, organize, and refine code.
+
+**Simplicity:**  
+Every function and file exists for a clear purpose. Excess is removed.
+
+**Human-first structure:**  
+Code is shaped around how people read, scan, and understand systems.
+
+**Predictable patterns:**  
+Naming, spacing, and flow stay consistent to reduce cognitive load.
+
+**Clean separation:**  
+Logic, structure, and visual design remain organized and distinct.
+
+**Intentional detail:**  
+Whitespace, indentation, and order communicate clarity.
+
+These principles create a code environment that feels calm, readable, and maintainable.
+
+---
+
 ## **Aesthetic Direction**
 This repository follows a quiet, architectural style.  
-The design language is built around neutrality, space, and clarity.  
-Every element is intentional, minimal, and structured.
+The design language is minimal, structured, and rooted in soft neutral tones.
 
-The palette below reflects the visual foundation of this space.
-
-### **Color Palette**
+### Color Palette
 
 <table>
   <tr>
@@ -42,30 +76,27 @@ The palette below reflects the visual foundation of this space.
   </tr>
 </table>
 
-## **Design Philosophy**
-This repository reflects my approach to marketing design.  
-Every code block is written with intention.  
-Each step considers how humans think, perceive, and respond.  
-Structure, clarity, and psychology shape the way every element is constructed.  
-The goal is an experience that feels intuitive, minimal, and quietly intelligent.
+---
 
-## **Code Principles**
-My work follows a structured set of principles that guide how I write, organize, and refine code.  
-These principles ensure clarity, stability, and psychological ease for anyone interacting with the system.
+## **Current Focus**
+This atelier is an evolving space. Current explorations include:
 
-**Simplicity over spectacle:**  
-Every function, style, and component is stripped to its essential purpose. Unnecessary complexity is noise.
+- JavaScript fundamentals expressed through clean structure  
+- Typing animations and interactive UI elements  
+- Clean layout patterns for future components  
+- Understanding how design psychology directs user attention  
+- Controlled experiments in readability and cognitive flow  
 
-**Human-first structure:**  
-Code is shaped around how people read, interpret, and mentally model systems. The goal is intuitive flow.
+---
 
-**Predictable patterns:**  
-Patterns reduce cognitive load. Consistency in naming, spacing, and logic supports effortless navigation.
+## **Purpose of This Repository**
+This is more than a playground.  
+It is a structured environment where small ideas become tangible through logic, pattern recognition, and iterative refinement.
 
-**Clean separation:**  
-Structure, style, and logic remain organized. Each layer has its place, making the system feel calm and maintainable.
+Everything here reflects a mindset of clarity, precision, and intention.
 
-**Intentional detail:**  
-Spacing, indentation, and order are deliberate. Visual structure communicates just as much as the logic itself.
+---
 
-These principles create a code environment that feels minimal, thoughtful, and quietly confident.
+## **Signature**
+Éliane  
+Marketing Software Developer
