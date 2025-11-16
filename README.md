@@ -1,7 +1,7 @@
 <p align="center">
 <img 
   src="elianesatelierheader" 
-  width="1150" 
+  width="1200" 
   height="200" 
   style="
     object-fit: cover; 
