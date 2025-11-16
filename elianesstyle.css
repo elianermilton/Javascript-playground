@@ -190,29 +190,39 @@ body {
     transform: translateY(0);
   }
 }
+
+/*===================== Animations ===================== */
 #eliane-anim {
-  width: 768px;          /* width of ONE frame */
-  height: 768px;         /* height of ONE frame */
-  overflow: hidden;      /* hides frames that aren’t active */
-  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin: 1.5rem 0 1rem;
 }
 
-#sprite1 {
-  width: calc(768px * 6);   /* 6 frames wide */
-  height: 768px;
-  animation: atelierBob 1.2s steps(6) infinite;
+#eliane-anim img {
+  max-width: 230px;        /* adjust smaller or bigger if you like */
+  height: auto;
+  image-rendering: crisp-edges;
+  animation: atelierSoftBob 3.4s ease-in-out infinite;
+  transform-origin: 50% 78%; /* pivot around lower center of body */
 }
 
-@keyframes atelierBob {
-  from {
-    transform: translateX(0);
+@keyframes atelierSoftBob {
+  0% {
+    transform: translateY(0) rotate(0deg);
   }
-  to {
-    transform: translateX(-4608px);   /* 768px * 6 frames */
+  20% {
+    transform: translateY(-1px) rotate(-0.4deg);
+  }
+  40% {
+    transform: translateY(0) rotate(-0.2deg);
+  }
+  60% {
+    transform: translateY(-1px) rotate(0.4deg);
+  }
+  80% {
+    transform: translateY(0) rotate(0.2deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
   }
 }
-
-
-
-
-
