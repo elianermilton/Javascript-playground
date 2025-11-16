@@ -8,7 +8,7 @@
     object-position: center; 
     border-radius: 12px; 
     box-shadow: 0 0 18px rgba(215, 122, 168, 0.4);
-    margin-bottom: 20px;
+    margin-bottom: 60px;
   "
 />
 </p>
