@@ -13,6 +13,8 @@
 />
 </p>
 
+<div style="padding-top: 30px;"></div>
+
 ## **A Taste of Éliane**
 ### Marketing Software Developer
 
