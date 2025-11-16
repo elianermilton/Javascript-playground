@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="elianesatelierheader" alt="Éliane’s Atelier Banner" width="900">
+  <img src="elianesatelierheader" alt="Éliane’s Atelier Banner" width="1000">
 </p>
 
 ## **A Taste of Éliane**
