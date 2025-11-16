@@ -8,12 +8,12 @@
     object-position: center; 
     border-radius: 12px; 
     box-shadow: 0 0 18px rgba(215, 122, 168, 0.4);
-    margin-bottom: 60px;
+    margin-bottom: 45px;
   "
 />
 </p>
 
-<div style="padding-top: 30px;"></div>
+<div style="padding-top: 60px;"></div>
 
 ## **A Taste of Éliane**
 ### Marketing Software Developer
