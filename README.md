@@ -1,5 +1,15 @@
 <p align="center">
-  <img src="elianesatelierheader" alt="Éliane’s Atelier Banner" width="1000">
+<img 
+  src="banner.png" 
+  width="1000" 
+  height="150" 
+  style="
+    object-fit: cover; 
+    object-position: center; 
+    border-radius: 12px; 
+    box-shadow: 0 0 18px rgba(215, 122, 168, 0.4);
+  "
+/>
 </p>
 
 ## **A Taste of Éliane**
