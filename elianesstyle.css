@@ -190,7 +190,27 @@ body {
     transform: translateY(0);
   }
 }
+#eliane-anim {
+  width: 768px;          /* width of ONE frame */
+  height: 768px;         /* height of ONE frame */
+  overflow: hidden;      /* hides frames that aren’t active */
+  margin: 0 auto;
+}
 
+#sprite1 {
+  width: calc(768px * 6);   /* 6 frames wide */
+  height: 768px;
+  animation: atelierBob 1.2s steps(6) infinite;
+}
+
+@keyframes atelierBob {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-4608px);   /* 768px * 6 frames */
+  }
+}
 
 
 
