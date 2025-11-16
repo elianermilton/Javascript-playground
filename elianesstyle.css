@@ -191,15 +191,18 @@ body {
   }
 }
 
-/*===================== Animations ===================== */
+/*===================== animations ===================== */
 #eliane-anim {
+  width: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   margin: 1.5rem 0 1rem;
 }
 
+
 #eliane-anim img {
-  max-width: 230px;        /* adjust smaller or bigger if you like */
+  max-width: 360px;      
   height: auto;
   image-rendering: crisp-edges;
   animation: atelierSoftBob 3.4s ease-in-out infinite;
