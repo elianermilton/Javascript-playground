@@ -1,8 +1,8 @@
 <p align="center">
 <img 
   src="elianesatelierheader" 
-  width="1100" 
-  height="180" 
+  width="1150" 
+  height="200" 
   style="
     object-fit: cover; 
     object-position: center; 
