@@ -1,6 +1,6 @@
 <p align="center">
 <img 
-  src="banner.png" 
+  src="elianesatelierheader" 
   width="1000" 
   height="150" 
   style="
