@@ -189,6 +189,7 @@
     opacity: 1;
     transform: translateY(0);
   }
+ 
 }
 
 /*===================== animations ===================== */
@@ -197,9 +198,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 1.25rem 0 1rem;
-}
-
+  margin: 0.5rem 0 1rem;
+  min-height: 220px;
+} 
 
 #eliane-anim {
   width: 100%;
@@ -207,6 +208,20 @@
   justify-content: center;
   align-items: center;
   margin: 0.5rem 0 1rem;  /* less space above */
+}
+ #eliane-anim img {
+  width: clamp(220px, 42vw, 320px);
+  height: auto;
+  image-rendering: crisp-edges;
+  animation: atelierSoftBob 3.4s ease-in-out infinite;
+  transform-origin: 50% 78%; /* pivot around lower center of body */
+}
+@media (max-width: 400px) {
+  #eliane-anim img {
+    width: clamp(200px, 55vw, 260px);
+  }
+}
+
 }
 
 @keyframes atelierSoftBob {
