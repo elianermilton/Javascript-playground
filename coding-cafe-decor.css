@@ -244,3 +244,45 @@
     transform: translateY(0) rotate(0deg);
   }
 }
+
+/* ========== avatar stage ========== */
+
+#eliane-anim {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5rem 0 1rem;
+  min-height: 220px;
+}
+
+/* responsive, consistent size */
+#eliane-anim img {
+  width: clamp(220px, 42vw, 320px);
+  height: auto;
+  image-rendering: crisp-edges;
+  animation: atelierSoftBob 3.4s ease-in-out infinite;
+  transform-origin: 50% 78%;
+}
+
+/* clear, visible motion */
+@keyframes atelierSoftBob {
+  0% {
+    transform: translateY(0) rotate(0deg);
+  }
+  20% {
+    transform: translateY(-6px) rotate(-2deg);
+  }
+  40% {
+    transform: translateY(0) rotate(-0.5deg);
+  }
+  60% {
+    transform: translateY(-6px) rotate(2deg);
+  }
+  80% {
+    transform: translateY(0) rotate(0.5deg);
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
