@@ -26,7 +26,7 @@ body {
 /* =================== intro text =================== */
 
 #intro {
-  font-size: 0.95rem;
+  font-size: 1.25rem;
   opacity: 0.9;
   margin-bottom: 0.25rem;
 }
@@ -34,7 +34,7 @@ body {
 #subintro {
   font-size: 0.9rem;
   opacity: 0.8;
-  margin-bottom: 1.75rem;
+  margin-bottom: .5rem;
   font-style: italic;
 }
 
